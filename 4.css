@@ -1,0 +1,264 @@
+body {
+    background: #eee;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: 0;
+    background: #dedede;
+    height: 1px;
+}
+
+header {
+    text-align: center;
+    color: #232323;
+}
+
+header .judul{
+    font-size: 17pt;
+}
+
+header .deskripsi {
+    font-size: 11pt;
+}
+
+.wrap{
+    width: 950px;
+    margin: 25px auto;
+}
+
+.menu{
+    display: inline;
+    align-items: center;
+}
+
+nav.menu ul li ul{
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+nav.menu ul li:hover > ul, ul li ul:hover a{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    float: left;
+}
+
+nav.menu ul{
+    overflow: hidden;
+    color: #fff;
+    list-style: none;
+    align-items: center;
+    float: left;
+    padding: 0;
+    width: 100%;
+    margin: 0 0 0;
+    background: #1abc9c;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+
+nav.menu ul li{
+    margin: 0;
+    float: left;
+}
+
+nav.menu ul a{
+    padding: 25px;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+nav.menu ul a:hover{
+    text-decoration: underline;
+    background: #16a085;
+}
+
+.blog{
+    float: left;
+    width: 100%;
+}
+
+.content {
+    padding: 25px;
+    margin: 25px auto;
+    background: #fff;
+    border: 1px solid #dedede;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+.tabel{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #242424;
+}
+
+.tabel tr th {
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+
+.tabel, th, td{
+    padding: 8px 20px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    padding: 13px 0;
+    color: #000;
+}
+
+input {
+    height: 18px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+	border-radius: 3px;
+    border: 1px solid #000;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #000;
+	border-radius: 3px;
+
+}
+
+input[type="text"]:hover, textarea:hover {
+    border: 1px solid #000;
+
+}
+
+.cancel {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    background: crimson;
+    color: #fff ;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+input[type="submit"]{
+    text-align: center;
+    color: #fff;
+    height: 40px;
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: 1px solid #000;
+    background: #000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+figure.card {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 380px;
+    max-width: 480px;
+    width: 100%;
+    background: #ffffff;
+    color: #000000;
+  }
+  figure.card * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+   img {
+    width: 50%;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    position: relative;
+    float: right;
+    right: -15%;
+    z-index: 1;
+  }
+  figure.card figcaption {
+    padding: 20px 30px 20px 20px;
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+  figure.card figcaption h2,
+  figure.card figcaption p {
+    margin: 0;
+    text-align: left;
+    padding: 10px 0;
+    width: 100%;
+  }
+  figure.card figcaption h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  figure.card figcaption h2 span {
+    font-weight: 800;
+    color: #b71540;
+  }
+  figure.card figcaption p {
+    font-size: 0.9em;
+    opacity: 0.8;
+  }
+  figure.card figcaption .icons {
+    width: 100%;
+    text-align: left;
+  }
+  figure.card figcaption .icons i {
+    font-size: 26px;
+    padding: 5px;
+    top: 50%;
+    color: #000000;
+  }
+  .icons i:hover {color: #b71540 !important; cursor: pointer;}
+  figure.card figcaption a {
+    opacity: 0.3;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+  }
+  
+  figure.card .position {
+    width: 100%;      
+    padding: 15px 20px;
+    font-size: 0.9em;
+    opacity: 1;
+    color: #ffffff;
+    background: #b71540;
+    clear: both;
+    font-weight: bold;
+  }
+ img:hover{
+    right: -10%;
+ }
+  

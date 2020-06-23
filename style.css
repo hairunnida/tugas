@@ -1,0 +1,140 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.navigasi{
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	width:100%;
+}
+
+.navigasi .content{
+	width:80%;
+	background-color:lightskyblue;
+	margin:0 auto;
+}
+
+.navigasi .content ul{
+	list-style-type:none;
+}
+
+.navigasi .content ul li{
+	display:inline;
+}
+
+.navigasi .content ul li a{
+	text-decoration:none;
+	font-size:16px;
+	color:black;
+	padding:20px 10px;
+	display:inline-block;
+	border-right:1px solid lightgreen;
+}
+
+.navigasi .content ul li a:hover{
+	color:green;
+	background-color:lightskyblue;
+}
+
+.container{
+	width:80%;
+	margin:0 auto;
+	margin-top:100px;
+	margin-bottom:50px;
+}
+
+
+.container table{	
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.container table th{
+	padding:15px;
+	border:0;
+	border-bottom:5px solid #262626;
+	background-color:dimgray;
+}
+
+.container table tr, .container table td, .container tabel textarea{
+	padding:10px;
+	border:1px solid rgb(235, 145, 145);
+	background-color: rgb(231, 126, 126);
+}
+
+.container table tr td:nth-child(1){
+	text-align:center;
+}
+
+.link{
+	text-decoration:none;
+	color:black;
+	padding:2px 5px;
+	background-color:#8C92AC;
+	border-radius:6px;
+}
+
+.green{
+	background-color:#8C92AC;
+}
+
+.link:hover{
+	background-color:lightskyblue;
+	color:white;
+}
+
+.form-input{
+	padding:20px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+}
+
+input[type=text], input[type=date], input[type=password], select, textarea{
+	width:100%;
+	padding:12px 5px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	background-color: dimgray;
+	margin:5px 0;
+}
+
+input[type=reset], input[type=submit]{
+	width:100%;
+	padding:12px 5px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	background-color:#91A3B0;
+	margin:5px 0;
+	color:white;
+	cursor:pointer;
+}
+
+input[type=reset]:hover, input[type=submit]:hover{
+	background-color:lightskyblue;
+}
+
+.pangging{
+	text-align:center;
+	text-decoration:none;
+}
+
+.container1{
+	width:80%;
+	margin-left: 28%;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.login{
+	width:50%;
+	padding:20px;
+	background-color:#f2f2f2;
+	border-radius:5px;
+}
+
+.navigasi .content .logout{
+	margin-left:730px;
+}
